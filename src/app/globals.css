@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth
+}
+
+.radial {
+  background: transparent radial-gradient(closest-side at 50% 50%, #07161CE2 0%, #07161C 100%) 0% 0% no-repeat padding-box;
+}
+.grad {
+  background: #FF5A39 0% 0% no-repeat padding-box;
+}
+._form_19 button {
+  width: 100%;
+}
+._form_19 form {
+  margin: 0!important;
+  border-radius: 4px!important;
+}
+@media (max-width: 425px) {
+  ._form_19 ._form-title {
+    font-size: 20px!important;
+  }
+  ._form_19 button {
+    font-size: 14px!important;
+  }
+}
+svg {
+  width: 1.25em;
+  transform-origin: center;
+  animation: rotate4 2s linear infinite;
+ }
+ 
+ circle {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-dasharray: 1, 200;
+  stroke-dashoffset: 0;
+  stroke-linecap: round;
+  animation: dash4 1.5s ease-in-out infinite;
+ }
+ 
+ @keyframes rotate4 {
+  100% {
+   transform: rotate(360deg);
+  }
+ }
+ 
+ @keyframes dash4 {
+  0% {
+   stroke-dasharray: 1, 200;
+   stroke-dashoffset: 0;
+  }
+ 
+  50% {
+   stroke-dasharray: 90, 200;
+   stroke-dashoffset: -35px;
+  }
+ 
+  100% {
+   stroke-dashoffset: -125px;
+  }
+ }
+ 
