@@ -20,8 +20,12 @@
 .grad {
   background: #FF5A39 0% 0% no-repeat padding-box;
 }
+._form_19 ._form-title {
+  font-family: "Sora", sans-serif!important
+}
 ._form_19 button {
   width: 100%;
+  font-weight: 600
 }
 ._form_19 form {
   margin: 0!important;
