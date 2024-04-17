@@ -22,7 +22,7 @@ export default function Header({ paragraph, children }: HeaderProps) {
     }, []);
 
     return (
-        <header className="relative radial sm:h-screen w-full flex flex-col-reverse justify-center items-center sm:pt-20">
+        <header className="relative px-4 radial sm:h-screen w-full flex flex-col-reverse justify-center items-center sm:pt-20">
             <div className="max-w-6xl w-full z-10">
                 <div className="flex flex-col sm:text-left text-center sm:gap-10 gap-4 w-full max-w-[800px] sm:p-0 p-4" id="forms">
                     {children}

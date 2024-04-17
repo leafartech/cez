@@ -13,7 +13,7 @@ export default function Page() {
         <h1 className="text-zambo sm:text-4xl text-2xl font-thin">Participe do lançamento da primeira pós-graduação no Brasil que prepara <strong className="font-semibold">advogados criminalistas</strong> que prepara advogados criminalistas para as <strong className="font-semibold">tendências do futuro</strong>.</h1>
       </Header>
       <main className="">
-        <section className="pb-12 sm:pb-24 pt-12 sm:pt-0 bg-bg flex justify-center px-4">
+        <section className="pb-12 sm:pb-24 pt-12 sm:pt-24 bg-bg flex justify-center px-4">
           <div className="w-full sm:max-w-6xl flex flex-col items-center gap-12 sm:gap-16">
             <h2 className="text-zambo sm:text-4xl text-2xl font-semibold text-center">Veja alguns dos conteúdos que você terá acesso dentro da pós-graduação além da atuação prática na advocacia criminal:</h2>
             <ul className="flex flex-wrap gap-6 sm:gap-12 justify-start sm:justify-center">
