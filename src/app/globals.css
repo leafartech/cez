@@ -39,7 +39,7 @@
     font-size: 14px!important;
   }
 }
-svg {
+svg.spin-svg {
   width: 1.25em;
   transform-origin: center;
   animation: rotate4 2s linear infinite;
