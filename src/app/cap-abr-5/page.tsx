@@ -10,7 +10,7 @@ export default function Page() {
       <Header
         paragraph=" Você vai descobrir tudo que precisa ter acesso para se destacar em um ambiente jurídico de constante evolução."
       >
-        <h1 className="text-zambo sm:text-4xl text-2xl font-thin">Participe do lançamento da primeira pós-graduação no Brasil que prepara <strong className="font-semibold">advogados criminalistas</strong> que prepara advogados criminalistas para as <strong className="font-semibold">tendências do futuro</strong>.</h1>
+        <h1 className="text-zambo sm:text-4xl text-2xl font-thin">Participe do lançamento da primeira pós-graduação no Brasil que prepara <strong className="font-semibold">advogados criminalistas</strong> para as <strong className="font-semibold">tendências do futuro</strong>.</h1>
       </Header>
       <main className="">
         <section className="pb-12 sm:pb-24 pt-12 sm:pt-24 bg-bg flex justify-center px-4">
