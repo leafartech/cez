@@ -3,11 +3,17 @@ import Header from "@/components/header";
 import ListItem from "@/components/list-item";
 import Person from "@/components/person";
 import Image from "next/image";
+import { CalendarDaysIcon } from "@heroicons/react/24/outline";
 
 export default function Page() {
   return (
     <div>
+      <div className="z-50 fixed top-0 left-0 w-full h-16 flex gap-2 justify-center items-center bg-gradient-to-tr from-[#1d2727] to-bg text-white border-b border-white">
+        <CalendarDaysIcon className="h-5 w-5 -translate-y-[2px]" />
+        <span>29 de Abril às 20h</span>
+      </div>
       <Header
+        top={true}
         paragraph=" Você vai descobrir tudo que precisa ter acesso para se destacar em um ambiente jurídico de constante evolução."
       >
         <h1 className="text-zambo sm:text-4xl text-2xl font-thin">Participe do lançamento da primeira pós-graduação no Brasil que prepara <strong className="font-semibold">advogados criminalistas</strong> para as <strong className="font-semibold">tendências do futuro</strong>.</h1>
