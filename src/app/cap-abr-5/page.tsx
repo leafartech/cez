@@ -65,11 +65,6 @@ export default function Page() {
                 name="Caio"
                 bottom="Rangel"
               />
-              <Person
-                imagePath="florence"
-                name="Florence"
-                bottom="Rosa"
-              />
             </div>
           </div>
         </section>
